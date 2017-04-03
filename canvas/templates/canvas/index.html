@@ -1,9 +1,6 @@
-{% if some_list %}
-    <ul>
-    {% for thing in some_list %}
-        <li><a href="/polls/{{ thing }}/">{{ thing }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>This didn't work.</p>
-{% endif %}
+{% load static %}
+<script src="{% static "js/jquery.js" %}"></script>
+<script src="{% static "js/vexflow-min.js" %}"></script>
+<script src="{% static "js/score.js" %}"></script>
+
+<div id="boo"></div>
