@@ -1,4 +1,4 @@
-#!/home/ec2-user/music_hacking_app/venv/bin/python
+#!/home/ec2-user/score/venv/bin/python
 
 import sys
 import getopt

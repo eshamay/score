@@ -1,4 +1,4 @@
-#!/home/ec2-user/music_hacking_app/venv/bin/python2
+#!/home/ec2-user/score/venv/bin/python2
 
 # -*- coding: utf-8 -*-
 import re
